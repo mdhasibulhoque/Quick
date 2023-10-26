@@ -8,7 +8,7 @@ body{
 /** heading start **/
 header{
 	/**border: 1px solid black;**/
-	padding: 7px 0;
+	padding: 12px 0;
 	border-bottom: 2px solid #EEF0F3;
 }
 .container {
@@ -18,12 +18,13 @@ header{
 	overflow: hidden;
 }
 .logo {
-	width: 11%;
+	width: 10%;
 	/**border: 1px solid red;**/
 	float: left;
 }
 .logo img{
 	width: 100%;
+    padding-top: 3px;
 }
 .menu {
 	width: 45%;
@@ -50,6 +51,10 @@ header{
 }
 .menu ul li:last-child a{
 	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+	transition: .3s;
 }
 /** heading end **/
 
@@ -114,16 +119,16 @@ header{
     padding: 0 1.5% 0 1.5%;
 }
 .s_left h2{
-	font-size: 55px;
+	font-size: 54px;
     font-weight: 700;
     color: #F15767;
     margin: 0 0 8px;
 }
 .s_left p{
-	font-size: 23px;
+	font-size: 16px;
     font-weight: 400;
     color: #0F2656;
-    line-height: 24px;
+    line-height: 22px;
     word-spacing: 1px;
     margin: 0;
 }
@@ -133,27 +138,29 @@ header{
     padding: 0 1.5% 0 2.5%;
 }
 .s_right h1{
-	font-size: 44px;
+	font-size: 42px;
     font-weight: 700;
     color: #0F2656;
-    line-height: 50px;
+    line-height: 44px;
     margin: 0;
 }
 /**success end**/
 /* feature start */
-.feature{}
+.feature{
+	padding-bottom: 60px;
+}
 .f_content{
 	overflow: hidden;
-	margin-bottom: 16px;
 }
 .f_single{
-	width: 28%;
+	width: 32%;
     /* border: 1px solid; */
     font-family: sans-serif;
     color: #0F2656;
     padding: 30px 1.5% 45px;
     float: left;
-    margin-right: 2.5%;
+    margin-right: 2%;
+    box-sizing: border-box;
 }
 .f_single:last-child{
 	margin-right: 0;
@@ -186,17 +193,16 @@ header{
 footer{
 	background-color: #008AFF;
     padding: 26px;
-    margin-top: 30px;
 }
 footer p{
 	text-align: center;
-    color: #ffffff9c;
+    color: #ffffff;
     font-size: 20px;
     margin: 0 auto;
 }
 footer p a{
 	text-decoration: none;
     color: #ffffff;
-    letter-spacing: 2px;
+    font-weight: 700;
 }
 /* footer Start */
